@@ -4,8 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "engines": {
-    "node": "16.x",
-    "npm": "8.1.0"
+    "node": "18.x",
+    "npm": "8.19.3"
   },
   "scripts": {
     "build:dev": "env NODE_ENV=development webpack --config webpack.config.js",
