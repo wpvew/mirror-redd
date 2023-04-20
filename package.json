@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
-  "engines": {
-    "node": "16.x",
-    "npm": "8.1.0"
-  },
   "scripts": {
     "build:dev": "env NODE_ENV=development webpack --config webpack.config.js",
     "build": "env NODE_ENV=production CLIENT_ID=tWYSDxcIEQPtZ-uw6wSrvw SECRET=eXlm43R948i3usrQDI0OqSD8L_n2PQ REDIR_URL=https://mirror-redd-react.herokuapp.com/auth webpack --config webpack.config.js",
